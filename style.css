@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  text-align: center;
+}
+
+.skull {
+  width: 150px;
+  height: auto;
+  filter: grayscale(100%) contrast(200%);
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.listen-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid red;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+}
+
+.listen-button:hover {
+  background-color: red;
+  color: black;
+}
